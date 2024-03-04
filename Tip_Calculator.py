@@ -1,31 +1,3 @@
-#  DAY 2 
-
-
-
-
-
-
-
-
-# DAYS LEFT 
-
-
-# age = input()
-# # 🚨 Don't change the code above 👆
-# # Write your code below this line 👇
-
-# years = 90
-
-# years_left = years - int(age) c
-
-# # one year has 52 weeks 
-# weeks_in_a_year = 52
-# week_left = years_left*weeks_in_a_year
-# print(f"You have {week_left} weeks left.")
-
-
-
-
 print("------------------------------------------------------------------------------")
 print("Welcome to the tip calculator!   ")
 bill = float(input("What was the total bill? £"))
