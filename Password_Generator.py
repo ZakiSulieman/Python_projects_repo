@@ -37,15 +37,11 @@ for number in range(1, num_numbers + 1):
 
 random.shuffle(password_list)
 
-
-
 password = ""
 for char in password_list:
    password += char
 
 print(f"Your pass word is: {password} ")
-
-
 password = ""
 
 for letter in range(1, num_letters +1):
