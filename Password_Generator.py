@@ -44,12 +44,30 @@ for char in password_list:
 print(f"Your pass word is: {password} ")
 password = ""
 
+<<<<<<< HEAD
 for letter in range(1, num_letters +1):
     password += random.choice(letters)
 
 for symbol in range(1 , num_symbols +1):
     password += random.choice(symbols)
 
+=======
+password = ""
+for char in password_list:
+   password += char
+
+print(f"Your pass word is: {password} ")
+
+
+password = ""
+
+for letter in range(1, num_letters +1):
+    password += random.choice(letters)
+
+for symbol in range(1 , num_symbols +1):
+    password += random.choice(symbols)
+
+>>>>>>> bca1ab9 (Delete calculator.py)
 for number in range(1, num_numbers +1):
     password += random.choice(numbers)
 print(password)
